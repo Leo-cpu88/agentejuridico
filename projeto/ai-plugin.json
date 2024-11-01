@@ -1,0 +1,14 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "agente_gpt",
+    "name_for_human": "Agente Jurídico GPT",
+    "description_for_human": "Analisa processos judiciais e fornece resumos jurídicos detalhados.",
+    "description_for_model": "Este plugin analisa documentos jurídicos e gera relatórios detalhados.",
+    "api": {
+        "url": "http://52.202.135.228:8080/upload_arquivo",  // Certifique-se de que este seja o IP público
+        "type": "rest"
+    },
+    "auth": {
+        "type": "none"
+    }
+}
