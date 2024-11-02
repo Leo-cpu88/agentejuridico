@@ -113,7 +113,6 @@ def upload_arquivo():
     resultado_analise = analise_juridica_completa(texto)
     return jsonify(resultado_analise)
 
-if __name__ == '__main__':
     # Atualização para rodar na porta 8080
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)  # Use a porta desejada (8080, por exemplo)
