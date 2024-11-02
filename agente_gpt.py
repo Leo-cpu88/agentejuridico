@@ -115,4 +115,5 @@ def upload_arquivo():
 
 if __name__ == '__main__':
     # Atualização para rodar na porta 8080
-    app.run(host='0.0.0.0', port=8080, debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)  # Use a porta desejada (8080, por exemplo)
